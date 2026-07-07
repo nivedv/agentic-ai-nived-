@@ -1,0 +1,78 @@
+{
+  "revenue": [
+    {
+      "account": "4010 - Licence Revenue",
+      "fy2023": 4200000,
+      "fy2024": 5124000,
+      "variance_pct": 22.0
+    },
+    {
+      "account": "4020 - Subscription Revenue",
+      "fy2023": 2850000,
+      "fy2024": 3078000,
+      "variance_pct": 8.0
+    },
+    {
+      "account": "4030 - Professional Services",
+      "fy2023": 1600000,
+      "fy2024": 1288000,
+      "variance_pct": -19.5
+    },
+    {
+      "account": "4040 - Support & Maintenance",
+      "fy2023": 980000,
+      "fy2024": 1029000,
+      "variance_pct": 5.0
+    },
+    {
+      "account": "4050 - Training Revenue",
+      "fy2023": 310000,
+      "fy2024": 291400,
+      "variance_pct": -6.0
+    },
+    {
+      "account": "4060 - Marketplace Commissions",
+      "fy2023": 120000,
+      "fy2024": 187200,
+      "variance_pct": 56.0
+    }
+  ],
+  "expenses": [
+    {
+      "account": "6010 - Salaries & Wages",
+      "fy2023": 3900000,
+      "fy2024": 4173000,
+      "variance_pct": 7.0
+    },
+    {
+      "account": "6020 - Cloud Hosting",
+      "fy2023": 720000,
+      "fy2024": 1008000,
+      "variance_pct": 40.0
+    },
+    {
+      "account": "6030 - Sales Commissions",
+      "fy2023": 640000,
+      "fy2024": 736000,
+      "variance_pct": 15.0
+    },
+    {
+      "account": "6040 - Office & Facilities",
+      "fy2023": 410000,
+      "fy2024": 385400,
+      "variance_pct": -6.0
+    },
+    {
+      "account": "6050 - Legal & Professional",
+      "fy2023": 260000,
+      "fy2024": 429000,
+      "variance_pct": 65.0
+    },
+    {
+      "account": "6060 - Travel & Entertainment",
+      "fy2023": 190000,
+      "fy2024": 205200,
+      "variance_pct": 8.0
+    }
+  ]
+}

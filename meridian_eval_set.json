@@ -1,0 +1,66 @@
+{
+  "eval_set_name": "Meridian RAG Evaluation Set — Lab 4.2",
+  "note": "10 questions with ground-truth reference answers, all answerable from meridian_corpus_extended.json. Ground truths are used by the RAGAS context_recall metric. Questions 9 and 10 are multi-document. Do not edit ground truths without re-checking them against the corpus text.",
+  "questions": [
+    {
+      "id": "Q01",
+      "question": "What pricing change did Amendment No. 3 to the Northbridge Holdings MSA introduce?",
+      "ground_truth": "Amendment No. 3 converted the pricing from a fixed annual fee of $480,000 to a usage-based model with a monthly minimum commitment of $40,000, with usage above the included transaction band billed monthly in arrears.",
+      "source_docs": ["DOC-001"]
+    },
+    {
+      "id": "Q02",
+      "question": "When did the new Northbridge pricing structure take effect?",
+      "ground_truth": "The pricing change under Section 4.2 of Amendment No. 3 took effect on 1 March 2024.",
+      "source_docs": ["DOC-001"]
+    },
+    {
+      "id": "Q03",
+      "question": "What new termination right did Section 7.3 of the amended MSA grant?",
+      "ground_truth": "Section 7.3 granted Northbridge Holdings the right to terminate the MSA for convenience upon sixty days written notice. No equivalent right existed in the original agreement or in Amendments No. 1 or No. 2.",
+      "source_docs": ["DOC-001"]
+    },
+    {
+      "id": "Q04",
+      "question": "How much revenue was recognised on the Northbridge account in March 2024, and why that amount?",
+      "ground_truth": "March 2024 recognition was $40,000, being the usage-based monthly minimum under Amendment No. 3, because metered usage for March did not exceed the included transaction band.",
+      "source_docs": ["DOC-002"]
+    },
+    {
+      "id": "Q05",
+      "question": "Who approved the Q1 FY2024 Northbridge revenue schedule and when?",
+      "ground_truth": "R. Whitfield, Group Financial Controller, approved the Q1 Northbridge revenue schedule on 8 April 2024, after confirming that March metered usage was within the included band and that the workpaper referenced the accounting memorandum as the source of the treatment.",
+      "source_docs": ["DOC-011"]
+    },
+    {
+      "id": "Q06",
+      "question": "What did management conclude about the accounting treatment of Amendment No. 3?",
+      "ground_truth": "Management concluded that Amendment No. 3 is not a separate contract because it adds no distinct goods or services at standalone selling price; it is accounted for as a prospective modification of the existing contract from 1 March 2024, with the amended consideration recognised over the remaining amended term and no restatement of January and February amounts. The Section 7.3 termination-for-convenience right limits the enforceable contract term for disclosure purposes.",
+      "source_docs": ["DOC-007"]
+    },
+    {
+      "id": "Q07",
+      "question": "Under the Group Revenue Recognition Policy, when is a contract modification accounted for as a separate contract?",
+      "ground_truth": "Under Section 4.2 of the policy, a modification is accounted for as a separate contract only where it adds distinct goods or services priced at their standalone selling price; otherwise, where remaining services are not distinct and form a single over-time performance obligation, the modification is accounted for prospectively from the effective date.",
+      "source_docs": ["DOC-012"]
+    },
+    {
+      "id": "Q08",
+      "question": "What items did the external auditor request in relation to the Northbridge amendment, and by when?",
+      "ground_truth": "The external auditor requested the executed amendment and all prior amendments, management's accounting assessment of the modification, the assessment of the Section 7.3 termination right's effect on enforceable term and contracted-future-revenue disclosures, the Q1 revenue schedule with evidence of review and approval, and the relevant policy extract — all to be provided by 3 May 2024.",
+      "source_docs": ["DOC-005"]
+    },
+    {
+      "id": "Q09",
+      "question": "Was the Board informed about the Northbridge amendment, and what did it request?",
+      "ground_truth": "Yes. At the 21 March 2024 Board meeting the Chief Commercial Officer briefed the Board on Amendment No. 3, including the term extension, usage-based pricing with the $40,000 monthly minimum, and the Section 7.3 termination right. The Board requested that management's accounting assessment be completed and approved before Q1 results were finalised, and noted the external auditor would review the treatment at interim.",
+      "source_docs": ["DOC-003"]
+    },
+    {
+      "id": "Q10",
+      "question": "How much revenue was recognised on the Northbridge account in Q2 FY2024, and what did the June figure comprise?",
+      "ground_truth": "Q2 FY2024 recognition totalled $127,500: $40,000 in each of April and May at the monthly minimum, and $47,500 in June, comprising the $40,000 minimum plus $7,500 of metered usage above the included transaction band billed in arrears.",
+      "source_docs": ["DOC-009"]
+    }
+  ]
+}
